@@ -1,0 +1,14 @@
+class Node:
+    def __init__(self, num_connections, con_too, dist_too):
+        self.num_connections = connections
+        self.con_too = con_too
+        self.dist_too = dist_too
+a = 4 #Number of connections from each node
+b = [101, 102, 103, 107] #Which rooms is it connected too
+c = int(101)
+d = 8.5
+p1 = Node
+p1.connections = a
+p1.con_too = b
+p1.dist_too = [c,d]#First value is the room that is in the path, second value is the distance to that room
+print(p1.connections, "\n", p1.con_too, "\n", p1.dist_too)
